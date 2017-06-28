@@ -19,7 +19,7 @@ func indexHandler( w http.ResponseWriter, r *http.Request){
             ipaddress = a.String()
         }
     }
-    fmt.Fprintf(w, "<html><h2>Golang Web App</h2><p>Spaces are better than tabs</p><p>Version 2.1.75</p><p>Hostname: %s</p><p>IP address: %s</p></html>", hostname, ipaddress)
+    fmt.Fprintf(w, "<html><h2>WOW Golang Web App</h2><p>Spaces are better than tabs</p><p>Version 2.1.75</p><p>Hostname: %s</p><p>IP address: %s</p></html>", hostname, ipaddress)
 }
  
 func main(){
